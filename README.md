@@ -9,14 +9,14 @@ Reference: <https://spark.apache.org/docs/latest/running-on-kubernetes.html>
 ## Pre-requisites
 
 - [docker](https://docs.docker.com/install/)
-- [envrc](https://direnv.net/docs/installation.html)
+- [direnv](https://direnv.net/docs/installation.html)
 - [make](https://www.gnu.org/software/make/)
 - [curl](https://curl.haxx.se/)
 - [tar](https://www.gnu.org/software/tar/)
 
 A hypervisor for running minikube. Check possibilities [here](https://minikube.sigs.k8s.io/docs/reference/drivers/). The recommended one is [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
-## Getting started
+## Instructions
 
 ```bash
 # this will install k8s tooling locally, start minikube, initialize helm and deploy a docker registry chart to your minikube
